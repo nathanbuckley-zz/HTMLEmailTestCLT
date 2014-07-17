@@ -1,8 +1,8 @@
 {
     "transport": {
         "service": "Gmail",
-        "user": "nth.buckley@gmail.com",
-        "password": "1337nath"
+        "user": "",
+        "password": ""
     },
     "baseOptions": {
         "to": "nth.buckley@gmail.com",
