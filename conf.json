@@ -1,0 +1,33 @@
+{
+    "transport": {
+        "service": "Gmail",
+        "user": "nth.buckley@gmail.com",
+        "password": "1337nath"
+    },
+    "baseOptions": {
+        "to": "nth.buckley@gmail.com",
+        "subject": "Base Test ✔"
+    },
+    "yahooOptions": {
+        "to": "nth.buckley@gmail.com",
+        "subject": "Yahoo Test ✔"
+    },
+    "gmailOptions": {
+        "to": "nth.buckley@gmail.com",
+        "subject": "Gmail Test ✔"
+    },
+    "outlookOptions": {
+        "to": "nth.buckley@gmail.com",
+        "subject": "Outlook Test ✔"
+    },
+    "allOptions": {
+        "to": "nth.buckley@gmail.com, m.layley@gmail.com",
+        "subject": "Test ✔"
+    },
+    "litmusOptions": {
+        "to": "nth.buckley@gmail.com",
+        "subject": "Litmus Test ✔"
+    },
+    "file": "test.html",
+    "from": "Nathan ✔ <nth.buckley@gmail.com>"
+}

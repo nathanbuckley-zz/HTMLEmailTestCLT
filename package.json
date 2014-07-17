@@ -1,0 +1,25 @@
+{
+	"name": "sendHTMLTestMessage",
+	"version": "0.0.1",
+	"description": "Description needed",
+	"author": "Nathan A Buckley <nathan@pinarylabs.com>",
+	"contributors":
+	[{
+		"name": "",
+  		"email": "",
+  		 "url" : ""
+  	}],
+	"homepage": "",
+	"dependencies":
+	{
+    "nodemailer": "*",
+    "ascii-art": "*",
+    "commander": "*"
+	},
+	"repository" :
+	{
+  	"type" : "git",
+	"url" : ""
+  	},
+  	"license": "MIT"
+}
