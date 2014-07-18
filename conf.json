@@ -21,12 +21,11 @@
         "subject": "Outlook Test ✔"
     },
     "allOptions": {
-        "to": "nth.buckley@gmail.com, m.layley@gmail.com",
+        "to": "nth.buckley@gmail.com",
         "subject": "Test ✔"
     },
     "litmusOptions": {
-        "to": "nth.buckley@gmail.com",
-        "subject": "Litmus Test ✔"
+
     },
     "file": "test.html",
     "from": "Nathan ✔ <nth.buckley@gmail.com>"
