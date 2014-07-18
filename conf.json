@@ -5,27 +5,27 @@
         "password": ""
     },
     "baseOptions": {
-        "to": "nth.buckley@gmail.com",
+        "to": "",
         "subject": "Base Test ✔"
     },
     "yahooOptions": {
-        "to": "nth.buckley@gmail.com",
+        "to": "you@yahoo.com",
         "subject": "Yahoo Test ✔"
     },
     "gmailOptions": {
-        "to": "nth.buckley@gmail.com",
+        "to": "you@gmail.com",
         "subject": "Gmail Test ✔"
     },
     "outlookOptions": {
-        "to": "nth.buckley@gmail.com",
+        "to": "you@outlook.com",
         "subject": "Outlook Test ✔"
     },
     "allOptions": {
-        "to": "nth.buckley@gmail.com",
+        "to": "you@gmail.com, you@yahoo.com, you@outlook.com",
         "subject": "Test ✔"
     },
     "litmusOptions": {
-
+      "url": "https://#{company}.litmus.com/emails.xml"
     },
     "file": "test.html",
     "from": "Nathan ✔ <nth.buckley@gmail.com>"
