@@ -6,6 +6,7 @@
 */
 
 var nodemailer = require('nodemailer'),
+http = require('http'),
 art = require('ascii-art'),
 fs = require('fs'),
 commander = require('commander'),
@@ -74,9 +75,9 @@ var mailOpAll = {
 
 // send message
   function sendMsg (mailOptions){
-    smtpTransport.sendMail(mailOptions, function(error, response){
+    smtpTransport.sendMail(mailOptions, function(err, response){
       if(error){
-          console.log(error);
+          console.log(err);
       }else{
           console.log("Message sent: " + response.response);
       }
@@ -101,7 +102,30 @@ function chdir (dir){
 //send message to litmus for Testing
 
 function litmusTest (){
-  
+  var options = {
+    host: conf.litmusOptions.url,
+    path: '/emails.xml',
+    port: '80',
+    method: 'POST',
+    auth: {
+      user: conf.litmusOptions.user,
+      pass: conf.litmusOptions.password
+    },
+    headers = {
+      'Content-type': 'application/xml',
+      'Accept': 'application/xml'
+    },
+    body: litmusReq.xml
+  };
+
+response.on('data', function (data) {
+    console.log(data);
+  });
+
+http.request(options,fuction(err, res){
+  if(err) throw(err);
+});
+req.end();
 }
 
 //-------------------------------------------------------------------------------------------------
