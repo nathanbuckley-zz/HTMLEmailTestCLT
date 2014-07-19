@@ -6,3 +6,9 @@ Simple to use command line tool for testing your HTML email designs to multiple 
 ### Work in Progress
 
 #### full Readme to follow shortly
+
+### install
+
+### update
+
+### usage
