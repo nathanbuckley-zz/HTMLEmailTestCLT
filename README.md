@@ -23,7 +23,7 @@ npm
 -l, --litmus', 'start litmus test of message'
 -c --chdir <path>', 'change directoy to HTML file'
 
--h --help 
+-h --help
 
 Examples:
 
