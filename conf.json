@@ -25,9 +25,8 @@
         "subject": "Test ✔"
     },
     "litmusOptions": {
-          "user": "litmusAPIUserName",
-          "password": "litmusPassword"
-},
+          "testEmail": "testemail@litmus.com"
+    },
     "file": "test.html",
     "from": "Nathan ✔ <nth.buckley@gmail.com>"
 }
