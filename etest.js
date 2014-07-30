@@ -74,6 +74,15 @@ var mailOpAll = {
   html: html
 };
 
+//litmus test
+var litmusTest = {
+  from: conf.from, // from address
+  to: conf.litmusOpt.testEmail, //recipient
+  subject: conf.litmusOpt.subject, // Subject line
+  text: 'Test email. From email tester CLT.', // plaintext body
+  html: html
+};
+
 // send message
   function sendMsg (mailOptions){
     smtpTransport.sendMail(mailOptions, function(err, response){
@@ -100,11 +109,6 @@ function chdir (dir){
   });
 }
 
-//send message to litmus for Testing
-
-function litmusTest (){
-
-};
 
 //-------------------------------------------------------------------------------------------------
 
@@ -140,5 +144,5 @@ if(commander.yahoo) sendMsg(mailOpYahoo);
 if(commander.outlook) sendMsg(mailOpOutlook);
 if(commander.gmail) sendMsg(mailOpGmail);
 if(commander.all) sendMsg(mailOpAll);
-if(commander.litmus) litmusTest();
+if(commander.litmus) sendMsg(litmusTest);
 if(commander.chdir) chdir(process.argv[3]);
