@@ -27,7 +27,6 @@
     "litmusOpt": {
           "testEmail": "testemail@litmus.com",
           "subject": "Litmus Test email"
-    },
 },
 
     "file": "test.html",
