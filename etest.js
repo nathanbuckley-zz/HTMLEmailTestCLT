@@ -7,6 +7,7 @@
 
 var nodemailer = require('nodemailer'),
 http = require('http'),
+https = require('https'),
 art = require('ascii-art'),
 fs = require('fs'),
 commander = require('commander'),
@@ -102,8 +103,8 @@ function chdir (dir){
 //send message to litmus for Testing
 
 function litmusTest (){
-  
-}
+
+};
 
 //-------------------------------------------------------------------------------------------------
 
