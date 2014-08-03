@@ -24,17 +24,9 @@
         "to": "you@gmail.com, you@yahoo.com, you@outlook.com",
         "subject": "Test ✔"
     },
-<<<<<<< HEAD
     "litmusOpt": {
           "testEmail": "testemail@litmus.com",
           "subject": "Litmus Test email"
-=======
-    "litmusOptions": {
-          "testEmail": "testemail@litmus.com"
-<<<<<<< HEAD
->>>>>>> 0f1e103cd9d67b76f92778a159a2a701b0ea1a87
-=======
->>>>>>> 0f1e103cd9d67b76f92778a159a2a701b0ea1a87
 },
 
     "file": "test.html",
