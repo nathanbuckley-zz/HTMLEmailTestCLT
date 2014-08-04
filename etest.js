@@ -109,6 +109,10 @@ function chdir (dir){
   });
 }
 
+//show current directory
+function shdir (){
+  console.log ('current directory: ' + conf.file);
+}
 
 //-------------------------------------------------------------------------------------------------
 
@@ -122,7 +126,8 @@ commander
     .option('-g, --gmail', 'send to Gmail config')
     .option('-a, --all', 'send to all config inboxs')
     .option('-l, --litmus', 'start litmus test of message')
-    .option('-c --chdir <path>', 'change directoy to HTML file')
+    .option('-c --chdir <path>', 'change directory to HTML file')
+    .option('-s --show', 'show current setup directory of HTML file')
 
 commander.on('--help', function(){
   console.log('  Examples:');
