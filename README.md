@@ -15,15 +15,15 @@ npm
 
 ### usage
 
--b, --base', 'send to baseOptions'
--y, --yahoo', 'send via yahoo config'
--o, --outlook', 'send to outlook config'
--g, --gmail', 'send to Gmail config'
--a, --all', 'send to all config inboxs'
--l, --litmus', 'start litmus test of message'
--c --chdir <path>', 'change directoy to HTML file'
+*-b, --base* 'send to baseOptions'<br>
+*-y, --yahoo* 'send via yahoo config'<br>
+*-o, --outlook* 'send to outlook config'<br>
+*-g, --gmail* 'send to Gmail config'<br>
+*-a, --all* 'send to all config inboxs'<br>
+*-l, --litmus* 'start litmus test of message'<br>
+*-c, --chdir <path>* 'change directoy to HTML file'<br>
 
--h --help
+*-h --help*
 
 Examples:
 
