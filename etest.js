@@ -1,13 +1,15 @@
 #!/usr/bin/env node
 
 /*
-*
-*
+* CLT that enables you to send HTML emails to multiple inbox's, inbox types or litmus
+* testing by providing directory to html file.
+* Main Dependancies : Node Mailer
+*                     fs - file service
+*                     Commander
+*                     reaad line
 */
 
 var nodemailer = require('nodemailer'),
-http = require('http'),
-https = require('https'),
 art = require('ascii-art'),
 fs = require('fs'),
 commander = require('commander'),
@@ -34,6 +36,7 @@ var html = fs.readFileSync(conf.file,'utf8', function(err, msg){
 
 //Message sending options
 //Base options
+
   var mailOpBase = {
     from: conf.from, // from address
     to: conf.baseOptions.to, // recipient
