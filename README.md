@@ -38,25 +38,40 @@ Examples:
 Details you add to the transport protocal will be used for sending the messages test.
 Inbox's that can be used by default and are supported by nodemailer ** (Service names are case insensitive):**
 
-'1und1'             'Mailjet'<br>
-'AOL'               'Mandrill'<br>
-'DynectEmail'       'Postmark'<br>
-'FastMail'          'QQ'<br>
-'Gmail'             'QQex'<br>
-'Godaddy'           'SendCloud'<br>
-'GodaddyAsia'       'SendGrid'<br>
-'GodaddyEurope'     'SES'<br>
-'hot.ee'            'Yahoo'<br>
-'Hotmail'           'Yandex'<br>
-'iCloud'            'Zoho'<br>
+'1und1'             <br>
+'AOL'              <br>
+'DynectEmail'      <br>
+'FastMail'         <br>
+'Gmail'             <br>
+'Godaddy'           <br>
+'GodaddyAsia'       <br>
+'GodaddyEurope'  <br>
+'hot.ee'     <br>
+'Hotmail'<br>
+'iCloud' <br>
 'mail.ee'<br>
 'Mail.ru'<br>
 'Mailgun'<br>
+'Mailjet'<br>
+'Mandrill'<br>
+'Postmark'<br>
+'QQ'<br>
+'QQex'<br>
+'SendCloud'<br>
+'SendGrid'<br>
+'SES'<br>
+'Yahoo'<br>
+'Yandex'<br>
+'Zoho'<br>
 
-Check here for future added services:  https://github.com/andris9/nodemailer-wellknown#supported-services
+>Check here for future added services:   >https://github.com/andris9/nodemailer-wellknown#supported-services
 
 For examples sakes Gmail is added to the config file by default.
 
 Add the details of the mail box's you wish to send to in to config file.
 
 The litmus address to create a test can be found :
+
+
+
+### Thanks
