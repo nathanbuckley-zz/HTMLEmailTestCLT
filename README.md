@@ -36,7 +36,7 @@ Examples:
 **Before use edit the config file to contain details needed**
 
 Details you add to the transport protocal will be used for sending the messages test.
-Inbox's that can be used by default and are supported by nodemailer ** (Service names are case insensitive):**
+Inbox's that can be used by default and are supported by nodemailer  **(Service names are case insensitive):**
 
 '1und1'             <br>
 'AOL'              <br>
