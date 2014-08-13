@@ -8,10 +8,15 @@ Simple to use command line tool for testing your HTML email designs to multiple 
 #### full Readme to follow shortly
 
 ### install
-
-npm
+```
+npm ...
+```
 
 ### update
+
+```
+npm update -g
+```
 
 ### Options
 
@@ -70,7 +75,9 @@ For examples sakes Gmail is added to the config file by default.
 
 Add the details of the mail box's you wish to send to in to config file.
 
-The litmus address to create a test can be found :
+The litmus address for create tests can be found by logging in to your litmus account and navigating to :
+
+User > Account settings > Static Test Address
 
 
 
