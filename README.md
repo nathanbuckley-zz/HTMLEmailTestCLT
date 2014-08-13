@@ -75,9 +75,9 @@ For examples sakes Gmail is added to the config file by default.
 
 Add the details of the mail box's you wish to send to in to config file.
 
-The litmus address for create tests can be found by logging in to your litmus account and navigating to :
-
-User > Account settings > Static Test Address
+>The litmus address for create tests can be found by logging in to your litmus account and >navigating to :
+>
+>User > Account settings > Static Test Address
 
 
 
