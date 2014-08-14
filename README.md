@@ -69,9 +69,9 @@ Inbox's that can be used by default and are supported by nodemailer  **(Service 
 'Yandex'<br>
 'Zoho'<br>
 
->Check here for future added services:   >https://github.com/andris9/nodemailer-wellknown#supported-services
+Check here for future added services:   https://github.com/andris9/nodemailer-wellknown#supported-services
 
-For examples sakes Gmail is added to the config file by default.
+Gmail is added to the config file by default due to popularity.
 
 Add the details of the mail box's you wish to send to in to config file.
 
