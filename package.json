@@ -6,7 +6,7 @@
   "preferGlobal": "true",
     "bin": {
       "filesearch" : "lib/etest.js"
-    }
+    },
   "dependencies": {
     "ascii-art": "^0.0.2-alpha",
     "colors": "^0.6.2",
