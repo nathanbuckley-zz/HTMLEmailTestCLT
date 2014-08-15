@@ -8,9 +8,8 @@ Simple to use command line tool for testing your HTML email designs to multiple 
 #### full Readme to follow shortly
 
 ### install
-```
-npm ...
-```
+
+[![NPM](https://nodei.co/npm/etest.png)](https://nodei.co/npm/etest/)
 
 ### update
 

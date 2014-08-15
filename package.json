@@ -2,7 +2,7 @@
   "name": "etest",
   "version": "0.0.1",
   "description": "Command line tool for testing html email creatives on the fly",
-  "main": "etest.js",
+  "main": "lib/etest.js",
   "dependencies": {
     "ascii-art": "^0.0.2-alpha",
     "colors": "^0.6.2",
@@ -31,3 +31,7 @@
   },
   "homepage": "https://github.com/nathanbuckley/HTMLEmailTestCLT"
 }
+"preferGlobal": "true",
+  "bin": {
+    "filesearch" : "lib/etest.js"
+  }
