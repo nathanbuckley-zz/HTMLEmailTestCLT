@@ -26,9 +26,9 @@ npm update -g etest
 
 Examples:
 
-  $ etest -b
-  $ etest -b -l
-  $ etest -bl  (the same as -b -l)
+  $ etest -b <br>
+  $ etest -b -l <br>
+  $ etest -bl  (the same as -b -l) <br>
 
 ### usage
 
