@@ -1,5 +1,5 @@
 {
-  "name": "eTest",
+  "name": "etest",
   "version": "0.0.1",
   "description": "Command line tool for testing html email creatives on the fly",
   "main": "etest.js",
