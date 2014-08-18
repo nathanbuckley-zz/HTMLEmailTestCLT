@@ -117,6 +117,12 @@ function shdir (){
   console.log ('current directory: ' + conf.file);
 }
 
+function showEmails (){
+  console.log('in base option: ' + conf.baseOptions.to);
+  console.log('in yahoo option: ' + conf.yahooOptions.to);
+  console.log('in outlook option: ' + conf.outlookOptions.to);
+  console.log('in gmail option: ' + conf.gmailOptions.to);
+}
 //-------------------------------------------------------------------------------------------------
 
 //commander setup
@@ -131,6 +137,7 @@ commander
     .option('-l, --litmus', 'start litmus test of message')
     .option('-c --chdir <path>', 'change directory to HTML file')
     .option('-s --show', 'show current setup directory of HTML file')
+    .option('-e --emails', 'show emails in config file')
 
 commander.on('--help', function(){
   console.log('  Examples:');
@@ -154,3 +161,4 @@ if(commander.gmail) sendMsg(mailOpGmail);
 if(commander.all) sendMsg(mailOpAll);
 if(commander.litmus) sendMsg(litmusTest);
 if(commander.chdir) chdir(process.argv[3]);
+if(commander.emails) showEmails;
