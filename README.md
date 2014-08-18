@@ -79,6 +79,6 @@ Add the details of the mail box's you wish to send to in to config file.
 
 ### Thanks
 
-[andris9 for nodemailer](https://github.com/andris9)
-[vision media for commander.js](https://github.com/visionmedia)
-[Khrome for ascii-art](https://github.com/khrome)
+[andris9 for nodemailer](https://github.com/andris9) <br>
+[vision media for commander.js](https://github.com/visionmedia) <br>
+[Khrome for ascii-art](https://github.com/khrome) <br>
