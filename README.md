@@ -4,7 +4,7 @@
 Simple to use command line tool for testing your HTML email designs to multiple inbox's
 
 
-[![NPM](https://nodei.co/npm/etest.png)](https://nodei.co/npm/etest/)
+[![NPM](https://nodei.co/npm/etest.png?downloads=true)](https://nodei.co/npm/etest/)
 
 ### update
 
@@ -21,6 +21,8 @@ npm update -g etest
 **-a, --all** 'send to all config inboxs'<br>
 **-l, --litmus** 'start litmus test of message'<br>
 **-c, --chdir <path>** 'change directoy to HTML file'<br>
+**-s --show**, 'show current setup directory of HTML file'<br>
+**-e --emails**, 'show emails in config file'
 
 *-h --help*
 
@@ -76,3 +78,7 @@ Add the details of the mail box's you wish to send to in to config file.
 
 
 ### Thanks
+
+[andris9 for nodemailer](https://github.com/andris9)
+[vision media for commander.js](https://github.com/visionmedia)
+[Khrome for ascii-art](https://github.com/khrome)
