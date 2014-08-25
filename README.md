@@ -36,6 +36,11 @@ Examples:
 
 **Before use edit the config file to contain details needed**
 
+> if installed globally config file can be found:
+> /usr/local/lib/node_modules/etest/conf.json
+> to edit in console use command:
+> **vim /usr/local/lib/node_modules/etest/conf.json**
+
 Details you add to the transport protocal will be used for sending the messages test.
 Inbox's that can be used by default and are supported by nodemailer  **(Service names are case insensitive):**
 
@@ -77,7 +82,7 @@ Add the details of the mail box's you wish to send to in to config file.
 
 
 
-### Thanks
+### Thanks and credit
 
 [andris9 for nodemailer](https://github.com/andris9) <br>
 [vision media for commander.js](https://github.com/visionmedia) <br>
