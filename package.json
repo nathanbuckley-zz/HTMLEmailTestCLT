@@ -1,6 +1,6 @@
 {
   "name": "etest",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Command line tool for testing html email creatives on the fly",
   "main": "lib/etest.js",
   "preferGlobal": "true",
@@ -9,7 +9,6 @@
     },
   "dependencies": {
     "ascii-art": "^0.0.2-alpha",
-    "colors": "^0.6.2",
     "commander": "^2.3.0",
     "nodemailer": "^1.0.2"
   },
