@@ -1,11 +1,11 @@
 {
   "name": "etest",
-  "version": "0.1.6",
+  "version": "0.1.8",
   "description": "Command line tool for testing html email creatives on the fly",
   "main": "lib/etest.js",
   "preferGlobal": "true",
     "bin": {
-      "filesearch" : "lib/etest.js"
+      "filesearch" : "./lib/etest.js"
     },
   "dependencies": {
     "ascii-art": "^0.0.2-alpha",
