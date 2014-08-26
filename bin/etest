@@ -5,4 +5,4 @@
 var path = require('path');
 var fs = require('fs');
 
-require('./lib/etest.js').convert();
+require('../lib/etest.js').convert();
