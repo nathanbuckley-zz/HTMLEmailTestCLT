@@ -4,6 +4,5 @@
 
 var path = require('path');
 var fs = require('fs');
-var lib = path.join('./lib');
 
-require(lib + '/etest.js').convert();
+require('./lib/etest.js').convert();
