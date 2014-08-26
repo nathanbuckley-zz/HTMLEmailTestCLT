@@ -1,8 +1,8 @@
 {
   "name": "etest",
-  "version": "0.1.13",
+  "version": "0.1.15",
   "description": "Command line tool for testing html email creatives on the fly",
-  "main": "lib/etest.js",
+  "main": "./lib/etest.js",
   "preferGlobal": "true",
     "bin": {
       "etest" : "./bin/etest"
