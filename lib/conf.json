@@ -29,6 +29,6 @@
           "subject": "Litmus Test email"
 },
 
-    "file": "test.html",
+    "file": "node_modules/etest/test.html",
     "from": "Nathan ✔ <nth.buckley@gmail.com>"
 }
