@@ -40,7 +40,7 @@ Examples:
 > if installed globally config file can be found:
 > /usr/local/lib/node_modules/etest/conf.json
 > to edit in console use command:
-> **vim /usr/local/lib/node_modules/etest/lib/conf.json**
+> **vim node_modules/etest/lib/conf.json**
 
 Details you add to the transport protocal will be used for sending the messages test.
 Inbox's that can be used by default and are supported by nodemailer  **(Service names are case insensitive):**
