@@ -1,6 +1,6 @@
 # HTMLEmailTestCLT
 
-## Not working ... work in progress
+## Working ... But still a work in progress
 
 Simple to use command line tool for testing your HTML email designs to multiple inbox's
 
