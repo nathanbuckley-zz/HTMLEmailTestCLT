@@ -33,7 +33,7 @@ Examples:
   $ etest -b -l <br>
   $ etest -bl  (the same as -b -l) <br>
 
-### usage
+###  Before usage
 
 **Before use edit the config file to contain details needed**
 
