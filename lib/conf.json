@@ -20,6 +20,10 @@
         "to": "you@outlook.com",
         "subject": "Outlook Test ✔"
     },
+    "extOptions": {
+        "to": "you@ext.com",
+        "subject": "Outlook Test ✔"
+    },
     "allOptions": {
         "to": "you@gmail.com, you@yahoo.com, you@outlook.com",
         "subject": "Test ✔"
