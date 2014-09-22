@@ -1,7 +1,11 @@
 #! /usr/bin/env node
 
 "use strict";
-
+var nodemailer = require('nodemailer'),
+art = require('ascii-art'),
+fs = require('fs'),
+commander = require('commander'),
+rl = require('readline').createInterface(process.stdin, process.stdout);
 var path = require('path');
 var fs = require('fs');
 
