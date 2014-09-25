@@ -5,7 +5,7 @@
         "password": ""
     },
     "baseOptions": {
-        "to": "",
+        "to": "you@gmail.com",
         "subject": "Base Test ✔"
     },
     "yahooOptions": {
@@ -34,5 +34,5 @@
 },
 
     "file": "node_modules/etest/test.html",
-    "from": "Nathan ✔ <nth.buckley@gmail.com>"
+    "from": "Test ✔ <transport@gmail.com>"
 }
