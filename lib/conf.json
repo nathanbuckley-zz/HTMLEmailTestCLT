@@ -33,6 +33,6 @@
           "subject": "Litmus Test email"
 },
 
-    "file": "/usr/lib/node_modules/etest/test.html",
+    "file": "test",
     "from": "Test ✔ <transport@gmail.com>"
 }
