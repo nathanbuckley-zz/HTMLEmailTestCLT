@@ -10,12 +10,12 @@ Simple to use command line tool for testing your HTML email designs to multiple 
 ### update
 
 ```
-npm update -g etest
+npm update etest -g
 ```
 
 ### Options
 
-**-v, --version** 'show current version installed'<br>
+**-V, --version** 'show current version installed'<br>
 **-b, --base** 'send to baseOptions'<br>
 **-y, --yahoo** 'send via yahoo config'<br>
 **-o, --outlook** 'send to outlook config'<br>
