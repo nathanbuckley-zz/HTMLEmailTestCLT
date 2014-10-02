@@ -1,6 +1,6 @@
 {
   "name": "etest",
-  "version": "0.1.41",
+  "version": "0.1.42",
   "description": "Command line tool for testing html email creatives on the fly",
   "main": "/lib/etest.js",
   "preferGlobal": "true",
@@ -14,7 +14,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 0"
   },
   "repository": {
     "type": "git",
