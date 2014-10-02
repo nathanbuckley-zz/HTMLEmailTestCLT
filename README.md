@@ -15,6 +15,7 @@ npm update -g etest
 
 ### Options
 
+**-v, --version** 'show current version installed'<br>
 **-b, --base** 'send to baseOptions'<br>
 **-y, --yahoo** 'send via yahoo config'<br>
 **-o, --outlook** 'send to outlook config'<br>
@@ -23,7 +24,8 @@ npm update -g etest
 **-l, --litmus** 'start litmus test of message'<br>
 **-c, --chdir <path>** 'change directoy to HTML file'<br>
 **-s --show**, 'show current setup directory of HTML file'<br>
-**-e --emails**, 'show emails in config file'
+**-e --emails**, 'show emails in config file'<br>
+**-S --ShowConf**, 'show directory of config file'
 
 *-h --help*
 
@@ -38,7 +40,7 @@ Examples:
 **Before use edit the config file to contain details needed**
 > Can retrive current conf.json (config file) directory
 > with command -S or --ShowConf
-> Once you have directory open and edit in your fav text editor 
+> Once you have directory open and edit in your fav text editor
 
 
 
