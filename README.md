@@ -1,5 +1,7 @@
 # HTMLEmailTestCLT
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/nathanbuckley/HTMLEmailTestCLT?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 ## WORK IN PROGRESS
 
 Simple to use command line tool for testing your HTML email designs to multiple inbox's
