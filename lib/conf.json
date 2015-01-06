@@ -24,14 +24,10 @@
         "to": "you@ext.com",
         "subject": "Outlook Test ✔"
     },
-    "allOptions": {
-        "to": "you@gmail.com, you@yahoo.com, you@outlook.com",
-        "subject": "Test ✔"
-    },
     "litmusOpt": {
           "testEmail": "testemail@litmus.com",
           "subject": "Litmus Test email"
-},
+    },
 
     "file": "test",
     "from": "Test ✔ <transport@gmail.com>"
